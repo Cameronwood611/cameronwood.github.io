@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{{ super() }}
+
+
+{% block content %}
+
+<h1>Cameron Wood's Website</h1>
+<p>Welcome to my personal website! This was built using Zola, 
+HTML, CSS and Markdown.</p>
+
+<h2>About</h2>
+<p> My name is Cameron Wood and I have been a professional 
+  developer for over three years.</p>
+  
+<p>Recently, I graduated from the University of 
+Alabama at Birmingham with a B.S. degreee in Computer Science. I have a passion 
+for learning, programming and making elegrant products.</p>
+
+<p>I enjoy nature, meeting new people, playing soccer and learning new things.</p>
+
+<h2 id="projects">Projects</h2>
+<ul>
+  <li>
+  <a href="https://gitlab.com/cameronwood611/web-crawler">Web Crawler</a>:
+  Asyncronous web crawler with Python and Docker.
+  </li>
+  <li>
+  <a href="https://devpost.com/software/adventure-learnabot">Adventure Learnabot</a>:
+  Hackathon project involving a text-based adventure in discord.
+  </li>
+  <li>
+    <a href="  https://gitlab.com/cameronwood611/computer-vis">Computer Vision</a>:
+    Collection of computer vision knowledge.
+    </li>
+</ul>
+{% endblock content %}

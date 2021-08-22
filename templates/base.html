@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Official Lonami's website">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Cameron Wood</title>
+
+  {% block css %}
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  {% endblock %}
+</head>
+
+<body>
+  <article>
+    <nav class="sections">
+        <ul class="left">
+            <li><a href="/" class="{% if current_path == '/' %}selected{% endif %}">main</a></li>
+            <li><a href="/blog" class="{% if current_path is starting_with('/blog') %}selected{% endif %}">blog</a></li>
+        </ul>
+        <div class="right">
+            <a href="https://github.com/cameronwood611" target="_blank"><img src="/img/github.svg" alt="github" /></a>
+            <a href="https://gitlab.com/cameronwood611" target="_blank"><img src="/img/gitlab.svg" alt="gitlab" /></a>
+            <a href="mailto:cwood611@uab.edu"><img src="/img/mail.svg" alt="email" /></a>
+        </div>
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <div>
+            <p>Built with the help of <a href="https://www.getzola.org" target="_blank">Zola</a></p>
+        </div>
+    </footer>
+  </article>
+</body>
+
+</html>

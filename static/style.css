@@ -1,0 +1,256 @@
+html,
+body {
+  background-color: #000;
+  margin: 0;
+}
+
+article {
+  background-color: #71c9ce;
+}
+
+nav,
+main,
+footer div {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #e3fdfd;
+  box-shadow: 0 0 10px #eee;
+}
+
+/* navigation */
+nav.sections {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav.sections ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+nav.sections li {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  display: inline;
+  margin: 0 -2px;
+  font-size: 1.3em;
+}
+
+nav.sections .left a {
+  color: #666;
+  border-bottom: solid 2px #a8a8a8;
+  padding: 0 16px;
+}
+
+nav.sections .left a.selected,
+nav.sections .left a:hover {
+  color: #000000;
+  border-bottom: solid 2px #444444;
+}
+
+nav.sections img {
+  margin: 0 4px;
+}
+
+/* footer */
+footer {
+  margin-top: 32px;
+  min-height: 64px;
+  background: linear-gradient(#71c9ce, #489da1);
+}
+
+footer div {
+  margin: 0px auto;
+  text-align: center;
+}
+
+footer p {
+  font-style: italic;
+  color: #777777;
+  font-family: serif;
+}
+
+/* headers */
+h1,
+h2 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 200%;
+  font-weight: lighter;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
+
+h1.title {
+  text-align: center;
+  font-family: serif;
+  font-size: 2.5em;
+  font-weight: lighter;
+  font-variant-caps: small-caps;
+  border-bottom: 4px double #000;
+}
+
+h3 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: larger;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+h1:not(.title):hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+  opacity: 1;
+}
+
+.anchor {
+  float: left;
+  padding-right: 0.4ch;
+  margin-left: -1.3ch;
+  opacity: 0;
+  transition: opacity 150ms;
+}
+
+/* body */
+p,
+li,
+dl,
+summary {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+.dim {
+  color: #999;
+  font-size: smaller;
+}
+
+a {
+  text-decoration: none;
+  color: #1789b3;
+  border-bottom: 0 dashed rgba(64, 64, 64, 0);
+  transition: color 300ms, border-bottom 300ms;
+}
+
+a:hover {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+blockquote {
+  border-left: 4px solid #000;
+  padding-left: 8px;
+  font-style: italic;
+  color: #444;
+}
+
+.footnote-definition:target {
+  background-color: rgba(255, 255, 0, 0.2);
+}
+
+dl img {
+  margin-bottom: -0.4em;
+  margin-right: 0.6em;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
+div.time {
+  text-align: right;
+  font-style: italic;
+  color: #777;
+  font-size: 0.9em;
+}
+
+div.time p {
+  line-height: 0.5;
+}
+
+hr {
+  border: 0;
+  border-bottom: 2px dashed #aaa;
+}
+
+sub {
+  font-size: small;
+}
+
+/* code */
+code {
+  font-weight: bold;
+  font-size: large;
+  background-color: #f7f7f0;
+  white-space: pre;
+}
+
+pre code {
+  font-weight: normal;
+  font-size: 1em;
+  background: none;
+}
+
+pre {
+  background-color: #eee;
+  padding: 4px;
+  overflow: auto;
+  max-height: 480px;
+}
+
+kbd {
+  padding: 3px 5px;
+  font: 0.9em monospace;
+  color: #333;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #ddd;
+}
+
+/* tables */
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f7f7e8;
+}
+
+th,
+td {
+  padding: 0.5em;
+  border: 1px solid #aaa;
+}
+
+tr:nth-child(even) {
+  background-color: #f7f7e8;
+}
+
+/* special */
+::-moz-selection {
+  background-color: #1789b3;
+  color: #000000;
+}
+
+::selection {
+  background-color: #1789b3;
+  color: #000000;
+}

@@ -1,11 +1,7 @@
 # The URL the site will be built for
 base_url = "https://cwood.dev"
-
-# Whether to automatically compile all Sass files in the sass directory
-compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+title="Cameron Wood"
+minify_html = true
 
 [markdown]
 # Whether to do syntax highlighting
