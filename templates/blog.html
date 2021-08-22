@@ -4,6 +4,14 @@
 <h1 class="title">
   {{ section.title }}
 </h1>
+<div>
+  <p>
+    Welcome to my Blog. Here, I'll mostly post about what I learn from the courses at my University 
+    (at least, the ones I really care about). This will mainly serve as a reminder for myself, but it could 
+    also be helpful for anyone else interested in the subject. I plan to keep these very high level.
+  </p>
+</div>
+<hr/>
 <ul>
   {% for page in section.pages %}
   <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
