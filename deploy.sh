@@ -4,9 +4,8 @@ zola build
 git checkout gh-pages
 find . -maxdepth 1 -not -name '.' -not -name '.git' -not -name 'public' -exec rm -r {} \;
 mv public/* .
-echo "cwood.dev" > CNAME
 rmdir public/
 git add .
 git commit -m "Deploy site"
 git push
-git checkout master
+git checkout main
