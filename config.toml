@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://cameronwood611.github.io/cameronwood.github.io"
+base_url = "https://cameronwood611.github.io/"
 title="Cameron Wood"
 minify_html = true
 
