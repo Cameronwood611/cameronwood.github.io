@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://cwood.dev/</loc>
+        <loc>http://cwood.dev/</loc>
     </url>
     <url>
-        <loc>https://cwood.dev/blog/</loc>
+        <loc>http://cwood.dev/blog/</loc>
     </url>
     <url>
-        <loc>https://cwood.dev/blog/cv-edges/</loc>
+        <loc>http://cwood.dev/blog/cv-edges/</loc>
         <lastmod>2021-05-01</lastmod>
     </url>
     <url>
-        <loc>https://cwood.dev/blog/malware-analysis/</loc>
+        <loc>http://cwood.dev/blog/malware-analysis/</loc>
         <lastmod>2019-07-01</lastmod>
     </url>
     <url>
-        <loc>https://cwood.dev/blog/matrix-algs/</loc>
+        <loc>http://cwood.dev/blog/matrix-algs/</loc>
         <lastmod>2022-01-04</lastmod>
     </url>
     <url>
-        <loc>https://cwood.dev/blog/nlp/</loc>
+        <loc>http://cwood.dev/blog/nlp/</loc>
         <lastmod>2021-12-13</lastmod>
     </url>
 </urlset>
