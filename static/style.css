@@ -5,7 +5,7 @@ body {
 }
 
 article {
-  background-color: #71c9ce;
+  background-color: #35b4ff;
 }
 
 nav,
@@ -18,8 +18,8 @@ footer div {
 main {
   padding: 10px 20px;
   border-radius: 4px;
-  background-color: #e3fdfd;
-  box-shadow: 0 0 10px #eee;
+  background-color: #d3eeff;
+  box-shadow: 0 0 10px #000;
 }
 
 /* navigation */
@@ -64,7 +64,7 @@ nav.sections img {
 footer {
   margin-top: 32px;
   min-height: 64px;
-  background: linear-gradient(#71c9ce, #489da1);
+  background: linear-gradient(#35b4ff, #79ceff);
 }
 
 footer div {

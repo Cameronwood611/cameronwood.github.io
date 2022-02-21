@@ -12,11 +12,11 @@ tags = ["uab", "matrix-algorithms", "linear-algebra"]
  - [Background](#background)
  - [Householder Transformation](#householder-transformation)
  - [QR Decomposition](#qr-decomposition)
- - [Principal Component Analysis](#pca)
- - [SVD](#svd)
- - [Subdivision Curves](#sd)
- - [Bezier Curves](#bc)
- - [Cubic B-splines](#cbc)
+ - [Principal Component Analysis](#)
+ - [SVD](#)
+ - [Subdivision Curves](#)
+ - [Bezier Curves](#)
+ - [Cubic B-splines](#)
  
 
 
