@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://www.cwood.dev"
+base_url = "https://cwood.dev"
 title="Cameron Wood"
 minify_html = true
 
